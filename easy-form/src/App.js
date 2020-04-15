@@ -6,28 +6,33 @@ import Simple from "./components/Forms/Simple";
 import Basic from "./components/Forms/Basic";
 import Custom from "./components/Forms/Custom";
 import Advance from "./components/Forms/Advance";
+import Wrapper from "./components/Wrapper/Wrapper";
+import Layout from "./components/Layout/Layout";
 
 import "./App.css";
+
 function App() {
   return (
     <Router>
-      <div>
+      <Wrapper>
         <Navbar></Navbar>
-        <Switch>
-          <Route exact path="/">
-            <Simple></Simple>
-          </Route>
-          <Route path="/basic">
-            <Basic></Basic>
-          </Route>
-          <Route path="/custom">
-            <Custom></Custom>
-          </Route>
-          <Route path="/advance">
-            <Advance></Advance>
-          </Route>
-        </Switch>
-      </div>
+        <Layout>
+          <Switch>
+            <Route exact path="/">
+              <Simple></Simple>
+            </Route>
+            <Route path="/basic">
+              <Basic></Basic>
+            </Route>
+            <Route path="/custom">
+              <Custom></Custom>
+            </Route>
+            <Route path="/advance">
+              <Advance></Advance>
+            </Route>
+          </Switch>
+        </Layout>
+      </Wrapper>
     </Router>
   );
 }
