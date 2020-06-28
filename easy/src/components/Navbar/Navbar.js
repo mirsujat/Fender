@@ -16,6 +16,9 @@ const Navbar = () => (
       <li className="nav-list">
         <Link to="/advance">Advance</Link>
       </li>
+      <li className="nav-list">
+        <Link to="/spring">Spring Animation</Link>
+      </li>
     </ul>
   </div>
 );
