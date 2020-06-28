@@ -8,6 +8,7 @@ import Custom from "./components/Forms/Custom";
 import Advance from "./components/Forms/Advance";
 import Wrapper from "./components/Wrapper/Wrapper";
 import Layout from "./components/Layout/Layout";
+import ProductPreview from "./components/ProductPreview/ProductPreview";
 
 import "./App.css";
 
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route path="/advance">
               <Advance></Advance>
+            </Route>
+            <Route path="/spring">
+              <ProductPreview></ProductPreview>
             </Route>
           </Switch>
         </Layout>
