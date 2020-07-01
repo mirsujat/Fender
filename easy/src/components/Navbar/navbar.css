@@ -1,0 +1,35 @@
+.nav-bar {
+  width: 100vw;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  top: 0;
+  color: #ffffff;
+  padding: 0 15px;
+}
+.nav {
+  display: block;
+  padding: 0 15px;
+}
+.nav-list {
+}
+.nav-left {
+}
+.nav-right {
+  display: flex;
+  padding: 15px 0;
+}
+
+ul {
+  display: flex;
+}
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 4px 15px;
+}
+a {
+  color: #d5dadc;
+  text-decoration: none;
+}
