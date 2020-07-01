@@ -1,0 +1,30 @@
+.script-bf-box {
+  width: 20px;
+  height: 20px;
+  background: #f70505;
+  margin: 5px 1px;
+  will-change: transform;
+  border-radius: 50%;
+  display: inline-block;
+}
+.script-bf-box-y {
+  width: 20px;
+  height: 20px;
+  background: #f7aa05;
+  margin: 5px 1px;
+  will-change: transform;
+  border-radius: 50%;
+  display: inline-block;
+}
+.script-bf-box-g {
+  width: 20px;
+  height: 20px;
+  background: #0df705;
+  margin: 5px 1px;
+  will-change: transform;
+  border-radius: 50%;
+  display: inline-block;
+}
+.script-bf-box:hover {
+  background: rgb(245, 6, 6);
+}
