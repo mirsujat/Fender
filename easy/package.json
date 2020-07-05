@@ -9,6 +9,7 @@
     "jimp": "^0.14.0",
     "lodash-es": "^4.17.15",
     "node-vibrant": "^3.1.5",
+    "p5": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
